@@ -114,7 +114,7 @@ export default function NavBar() {
                 {(() => {
                   let imagePath = "";
                   if (data.weather[0].main === "Clouds") {
-                    imagePath = "./Shower2.png";
+                    imagePath = "./shower2.png";
                   } else if (data.weather[0].main === "Clear") {
                     imagePath = "./Clear.png";
                   } else if (data.weather[0].main === "Sunny") {
