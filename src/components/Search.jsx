@@ -1,8 +1,9 @@
-"use client";
+// "use client";
 // import Image from 'next/image'
 // import styles from './SideBar.css'
 import { useState } from "react";
 import React from "react";
+import '/src/App.css'
 
 export default function Search() {
   const [searchQuery, setSearchQuery] = useState("");

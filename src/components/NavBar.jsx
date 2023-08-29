@@ -1,10 +1,11 @@
-"use client";
+// "use client";
 import React, { useEffect, useState } from "react";
-import SideBar from "./SideBar";
+import SideBar from '/src/components/SideBar';
 import moment from "moment-timezone";
-import Search from "./Search";
+import Search from "/src/components/Search";
+import '/src/App.css';
 
-import "./WeatherCard.css";
+import "/src/components/WeatherCard.css";
 
 export default function NavBar() {
   const [sideBar, setSideBar] = useState(false);
